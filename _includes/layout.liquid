@@ -9,6 +9,15 @@ title: 11ty Boilerplate
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
+  
+  <!-- Alpine.js -->
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+  
+  <!-- Alpine Fetch -->
+  <script src="https://cdn.jsdelivr.net/npm/@alpinejs/fetch@latest/dist/cdn.min.js" defer></script>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
   <nav>
@@ -17,6 +26,7 @@ title: 11ty Boilerplate
       <li><a href="/about/" title="About the boilerplate">About</a></li>
     </ul>
   </nav>
-    {{ content }}
+  
+  {{ content }}
 </body>
 </html>
