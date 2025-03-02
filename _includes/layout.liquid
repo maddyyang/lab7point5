@@ -18,12 +18,13 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body class="bg-gray-100 p-6">
-  <nav class="mb-4">
-    <ul class="flex space-x-4">
-      <li><a href="/" class="text-blue-500 hover:underline">Home</a></li>
-      <li><a href="/about/" class="text-blue-500 hover:underline">About</a></li>
-    </ul>
-  </nav>
+  <nav>
+  <ul>
+    <li><a href="/" title="Go home">Home</a></li>
+    <li><a href="/about/" title="About the boilerplate">About</a></li>
+    <li><a href="/ai-experience/" title="AI Tool Experience">AI Experience</a></li>
+  </ul>
+</nav>
 
   {{ content }}
 </body>
